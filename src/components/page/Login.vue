@@ -38,6 +38,7 @@
         },
         methods: {
             submitForm(formName) {
+                // console.log(this.ruleForm);
                 const self = this;
                 self.$refs[formName].validate((valid) => {
                     if (valid) {
